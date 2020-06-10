@@ -10,3 +10,6 @@ Step2: 控制台输入 python train.py（开始训练，生成的模型和图都
 Step3: 控制台输入 python eval.py（通过./logs-tacotron文件夹中最新的模型进行语音合成，合成的语音输出路径默认为./logs-tacotron文件夹）
 
 注：因为已经在./logs-tacotron文件夹中保存了100000步时的model和checkpoint，只需在eval.py中修改"sentence=['...']"中的文本信息（输入汉字和注音字符均可），然后运行eval.py即可产生默认名称为eval-100000.wav的语音。
+
+Git is a distributed version control system.
+Git is free software distributed under the GPL.
